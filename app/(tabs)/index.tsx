@@ -1,4 +1,5 @@
 import React, { useRef } from 'react';
+
 import {
   View,
   Text,
@@ -14,13 +15,12 @@ import {
 import { LinearGradient } from 'expo-linear-gradient';
 
 // Importing your assets
-import aseanlogo from '../assets/ctu-images/ASEAN-logo.png';
+import aseanlogo from '../assets/ctu-images/aseanlogo.png';
 import ctuLogo from '../assets/ctu-images/ctulogo.png';
 import tuv from '../assets/ctu-images/tuv.png';
 import signature from '../assets/ctu-images/signature.png';
 import buildingPhoto from '../assets/ctu-images/building.png';
-import idphoto from '../assets/ctu-images/talingting_edited2.png';
-
+import idphoto from '../assets/ctu-images/pic1.jpeg';
 
 interface Student {
   name: string;
